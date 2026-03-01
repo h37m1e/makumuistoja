@@ -1,6 +1,7 @@
 # Makumuistoja sivusto
 Sivusto on tehty osana kurssitehtävää, jonka tarkoituksena on tehdä käyttäjäystävällinen ja responsiivinen sivusto. React + Vite pohjana.
 ## Linkki
+https://h37m1e.github.io/makumuistoja/
 
 
 ## Lähteet
