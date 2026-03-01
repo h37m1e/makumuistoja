@@ -17,7 +17,7 @@ export default function Muffinit() {
       <p>Se leivonnainen, joka katoaa pelliltä nopeammin kuin ehdit sanoa “otan vain yhden”.</p>
       <h4>On olemassa hetkiä, jolloin tekee mieli jotain pientä ja makeaa, mutta ei mitään monimutkaista. Suklaahippumuffinit ovat täydellinen vastaus siihen tunteeseen. Ne syntyvät yksinkertaisista aineksista, mutta maistuvat siltä kuin olisit nähnyt vaivaa. Ja mikä parasta, taikina valmistuu nopeammin kuin uuni ehtii lämmetä. </h4>
       <video controls className="recipe-video">
-  <source src="/videot/muffinsi_video.mp4" type="video/mp4" />
+  <source src={`${import.meta.env.BASE_URL}videot/muffinsi_video.mp4`} type="video/mp4" />
   Selaimesi ei tue videon toistoa.
 </video>
 

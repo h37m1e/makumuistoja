@@ -36,7 +36,7 @@ export default function Chana() {
       </ul>
 
       <video controls className="recipe-video">
-  <source src="/videot/wokki-video.mp4" type="video/mp4" />
+  <source src={`${import.meta.env.BASE_URL}videot/wokki-video.mp4`} type="video/mp4" />
   Selaimesi ei tue videon toistoa.
 </video>
 <h3>Valmistus</h3>
